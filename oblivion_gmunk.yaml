@@ -1,0 +1,172 @@
+# Oblivion GMunk Theme for Home Assistant
+
+# Based on the sci-fi interface designs from the movie “Oblivion”
+
+# Created by GMunk (Bradley Munkowitz)
+
+oblivion_gmunk:
+
+# Force dark mode
+
+modes:
+light:
+primary-background-color: ‘#0A0F12’
+dark:
+primary-background-color: ‘#0A0F12’
+
+# Primary colors
+
+primary-color: ‘#00D4FF’                    # Bright cyan/teal accent
+accent-color: ‘#00D4FF’                     # Matching accent
+dark-primary-color: ‘#0099CC’               # Darker teal for hover states
+light-primary-color: ‘#33DDFF’              # Lighter teal for highlights
+
+# Text colors
+
+primary-text-color: ‘#E0F4FF’               # Light blue-white text
+text-primary-color: ‘#E0F4FF’               # Main text
+secondary-text-color: ‘#99CCDD’             # Secondary text
+disabled-text-color: ‘#556B73’              # Disabled text
+label-badge-border-color: ‘#00D4FF’         # Badge borders
+
+# Background colors
+
+primary-background-color: ‘#0A0F12’         # Very dark blue-black background
+secondary-background-color: ‘#0F1419’       # Slightly lighter dark background
+divider-color: ‘#1A2328’                    # Divider lines
+table-row-background-color: ‘#0F1419’       # Table rows
+table-row-alternative-background-color: ‘#141A1F’ # Alternating table rows
+
+# Paper/Card colors
+
+paper-grey-50: ‘#0F1419’                    # Card backgrounds
+paper-grey-200: ‘#1A2328’                   # Slightly raised elements
+paper-card-background-color: ‘#0F1419’      # Card background
+paper-listbox-background-color: ‘#0F1419’   # Dropdown backgrounds
+paper-item-icon-color: ‘#00D4FF’            # Icons
+paper-item-icon-active-color: ‘#33DDFF’     # Active icons
+
+# Sidebar colors
+
+sidebar-icon-color: ‘#99CCDD’               # Sidebar icons
+sidebar-text-color: ‘#E0F4FF’               # Sidebar text
+sidebar-selected-text-color: ‘#FFFFFF’      # Selected sidebar text
+sidebar-selected-icon-color: ‘#00D4FF’      # Selected sidebar icons
+sidebar-selected-background-color: ‘#0F2A33’ # Selected sidebar background
+
+# States and indicators
+
+state-icon-color: ‘#00D4FF’                 # Default state icons
+state-icon-active-color: ‘#33DDFF’          # Active state icons
+state-icon-unavailable-color: ‘#556B73’     # Unavailable icons
+
+# Switch colors
+
+switch-checked-color: ‘#00D4FF’             # Checked switches
+switch-unchecked-color: ‘#556B73’           # Unchecked switches
+switch-checked-button-color: ‘#FFFFFF’      # Switch button when on
+switch-unchecked-button-color: ‘#99CCDD’    # Switch button when off
+switch-checked-track-color: ‘#0099CC’       # Switch track when on
+switch-unchecked-track-color: ‘#2A363D’     # Switch track when off
+
+# Slider colors
+
+slider-color: ‘#00D4FF’                     # Slider handle and active track
+slider-track-color: ‘#2A363D’               # Inactive slider track
+slider-bar-color: ‘#00D4FF’                 # Slider progress
+
+# Input colors
+
+input-idle-line-color: ‘#556B73’            # Input field borders
+input-hover-line-color: ‘#99CCDD’           # Input hover state
+input-disabled-line-color: ‘#2A363D’        # Disabled input fields
+input-outlined-idle-border-color: ‘#556B73’ # Outlined input borders
+input-outlined-hover-border-color: ‘#99CCDD’ # Outlined input hover
+input-fill-color: ‘#0F1419’                 # Input fill background
+input-ink-color: ‘#E0F4FF’                  # Input text color
+input-label-ink-color: ‘#99CCDD’            # Input labels
+input-disabled-ink-color: ‘#556B73’         # Disabled input text
+
+# Button colors
+
+mdc-theme-primary: ‘#00D4FF’                # Primary button color
+mdc-theme-secondary: ‘#0099CC’              # Secondary button color
+mdc-theme-background: ‘#0A0F12’             # Button background
+mdc-theme-surface: ‘#0F1419’                # Button surface
+mdc-theme-on-primary: ‘#FFFFFF’             # Text on primary buttons
+mdc-theme-on-secondary: ‘#FFFFFF’           # Text on secondary buttons
+mdc-theme-on-surface: ‘#E0F4FF’             # Text on surface
+
+# Alert colors
+
+error-color: ‘#FF4444’                      # Error state
+warning-color: ‘#FF9500’                    # Warning state
+success-color: ‘#00D4FF’                    # Success state (using theme teal)
+info-color: ‘#00D4FF’                       # Info state
+
+# Graph colors
+
+graph-color: ‘#00D4FF’                      # Graph lines
+graph-color-2: ‘#33DDFF’                    # Secondary graph color
+graph-color-3: ‘#0099CC’                    # Tertiary graph color
+
+# Weather colors
+
+weather-day-color: ‘#FFD700’                # Day weather
+weather-night-color: ‘#4A5B73’              # Night weather
+
+# Calendar colors
+
+calendar-day-color: ‘#E0F4FF’               # Calendar day text
+calendar-month-color: ‘#00D4FF’             # Calendar month/year
+calendar-day-hover-color: ‘#0F2A33’         # Calendar day hover
+
+# Additional theme-specific colors
+
+border-color: ‘#1A2328’                     # General borders
+app-header-background-color: ‘#0A0F12’      # Header background
+app-header-text-color: ‘#E0F4FF’            # Header text
+
+# Card colors
+
+ha-card-border-radius: ‘8px’                # Rounded corners
+ha-card-box-shadow: ‘0 4px 8px rgba(0, 212, 255, 0.1)’ # Subtle glow
+
+# Custom properties for advanced styling
+
+oblivion-glow: ‘0 0 10px rgba(0, 212, 255, 0.3)’  # Signature teal glow
+oblivion-border: ‘1px solid rgba(0, 212, 255, 0.2)’ # Teal border
+oblivion-gradient: ‘linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(0, 153, 204, 0.1) 100%)’
+
+# Typography (closest web-safe fonts to Oblivion’s futuristic style)
+
+primary-font-family: “‘Roboto Mono’, ‘Courier New’, monospace”
+paper-font-common-base_-*font-family: “‘Roboto Mono’, ‘Courier New’, monospace”
+paper-font-common-code*-*font-family: “‘Roboto Mono’, ‘Courier New’, monospace”
+paper-font-body1*-*font-family: “‘Roboto Mono’, ‘Courier New’, monospace”
+paper-font-subhead*-*font-family: “‘Roboto Mono’, ‘Courier New’, monospace”
+paper-font-headline*-*font-family: “‘Roboto Mono’, ‘Courier New’, monospace”
+paper-font-caption*-*font-family: “‘Roboto Mono’, ‘Courier New’, monospace”
+paper-font-title*-_font-family: “‘Roboto Mono’, ‘Courier New’, monospace”
+
+# Font weights and sizes
+
+paper-font-body1_-*font-size: ‘14px’
+paper-font-body1*-*font-weight: ‘400’
+paper-font-subhead*-*font-size: ‘16px’
+paper-font-subhead*-*font-weight: ‘400’
+paper-font-headline*-*font-size: ‘24px’
+paper-font-headline*-_font-weight: ‘400’
+
+# Lovelace card specific
+
+lovelace-background: ‘#0A0F12’              # Main lovelace background
+
+# RGB values for CSS rgba usage
+
+rgb-primary-color: ‘0, 212, 255’            # For rgba(var(–rgb-primary-color), opacity)
+rgb-accent-color: ‘0, 212, 255’
+rgb-primary-text-color: ‘224, 244, 255’
+rgb-secondary-text-color: ‘153, 204, 221’
+rgb-text-primary-color: ‘224, 244, 255’
+rgb-card-background-color: ‘15, 20, 25’
