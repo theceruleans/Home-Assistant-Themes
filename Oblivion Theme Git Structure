@@ -1,0 +1,57 @@
+# Oblivion GMunk Theme - GitHub Repository Structure
+
+```
+oblivion-gmunk-homeassistant-theme/
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+├── themes/
+│   └── oblivion_gmunk.yaml
+├── assets/
+│   ├── backgrounds/
+│   │   ├── oblivion_bg_1.png
+│   │   ├── oblivion_bg_2.png
+│   │   ├── oblivion_bg_3.png
+│   │   ├── oblivion_bg_animated.png
+│   │   └── oblivion_particles.png
+│   ├── icons/
+│   │   ├── theme_icon.png
+│   │   └── theme_preview.png
+│   ├── videos/
+│   │   ├── oblivion_background.mp4
+│   │   └── interface_demo.mp4
+│   └── js/
+│       ├── oblivion_animations.js
+│       ├── particle_system.js
+│       └── interface_effects.js
+├── examples/
+│   ├── lovelace_config.yaml
+│   ├── dashboard_example.yaml
+│   └── screenshots/
+│       ├── overview.png
+│       ├── entities.png
+│       ├── logbook.png
+│       └── settings.png
+├── docs/
+│   ├── installation.md
+│   ├── customization.md
+│   └── troubleshooting.md
+└── .github/
+    ├── workflows/
+    │   └── validate.yml
+    └── ISSUE_TEMPLATE/
+        ├── bug_report.md
+        └── feature_request.md
+```
+
+## Key Files to Create:
+
+### 1. README.md (Main repository file)
+
+### 2. Installation script
+
+### 3. JavaScript animations
+
+### 4. Background generation guide
+
+### 5. GitHub Actions for validation
