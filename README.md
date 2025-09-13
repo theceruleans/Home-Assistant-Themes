@@ -1,4 +1,4 @@
-# Oblivion Home-Assistant-Themes
+# Oblivion Home-Assistant-Theme
 Based on the Sci-Fi Movie 
 # 🚀 Oblivion GMunk Theme for Home Assistant (made with Claude AI)
 
