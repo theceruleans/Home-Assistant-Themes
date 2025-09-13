@@ -1,5 +1,5 @@
-# Home-Assistant-Themes
-Themes for Home Assistant 
+# Oblivion Home-Assistant-Themes
+Based on the Sci-Fi Movie 
 # 🚀 Oblivion GMunk Theme for Home Assistant (made with Claude AI)
 
 A stunning sci-fi theme for Home Assistant inspired by GMunk’s iconic interface design from the movie “Oblivion” (2013). Features the distinctive teal/cyan color palette, dark backgrounds, and futuristic aesthetics that made the movie’s UI legendary.
